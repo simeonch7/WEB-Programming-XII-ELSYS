@@ -1,10 +1,10 @@
 regExps = {
 "exercise_1": /[A-Z][a-z]{1,}/,
-"exercise_2": /(08[7-9]{1}[1-9]{7})/,
+"exercise_2": /(0[8-9]{1}[7-9]{1}[1-9]{7})/,
 "exercise_3": /([^01])+/,
 "exercise_4": /^[a-z][^@$]{2,15}$/,
-"exercise_5": /^[\d]{3}$|(1[0-4]\d+|1500)/, 
-"exercise_6": /class=('|")[A-z\s?]+("|')/
+"exercise_5": /^[\d]{3}$|^(1[0-4]\d+$|^1500$)/, 
+"exercise_6": /class=('|")[A-z\s]+("|')/
 };
 
 cssSelectors = {
